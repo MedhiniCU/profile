@@ -46,6 +46,21 @@
     <a href="MedhiniChinnadupparige.pdf" download="MedhiniChinnadupparige.pdf">
         <button>Download PDF</button>
     </a>
+        <button onclick="toggleDarkMode()" style="background: #555; color: white; padding: 10px; margin-top: 15px; border: none; border-radius: 5px; cursor: pointer;">Toggle Dark Mode</button>
+
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+    }
+</script>
+
+<style>
+    .dark-mode {
+        background: #222;
+        color: white;
+    }
+</style>
+
         
     </div>
 
